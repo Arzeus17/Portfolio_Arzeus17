@@ -100,9 +100,9 @@
         </div>
         </div>
 
-        <div class="form" style="background-color:black">
+        <div class="formulario" style="background-color:black">
             <div>
-            <div>
+            <div style="color:white">
                 <h2>Contato:</h2></br>
                 <ul>
                     <li><p>Quer entrar em contato comigo?</p></li>
@@ -113,17 +113,39 @@
                 </ul>
             </div>
 
-            <form action="">
-                <ul>
-                    <li><input type="text" placeholder="Nome"></br></li>
-                    <li><input type="text" placeholder="e-mail"></br></li>
-                    <li><input type="text" placeholder="Assunto"></br></li>
-                    <li><input type="text" placeholder="Mensagem"></br></li>
-                    <li><button>enviar!</button></li>
+            <form id="form" class="form container mx-auto row align-items-start">
+                    <label>
+                        Nome:
+                        <input type="text" class="form-control" placeholder="Nome" required>
+                    </label></br>
+                    <label>
+                        E-mail:
+                        <input type="text" class="form-control" placeholder="eu@domain.com" required>
+                    </label></br>
+                    <label>
+                        Assunto:
+                        <input type="text" class="form-control" placeholder="Assunto" required>
+                    </label></br>
+                    <label>
+                        Mensagem:
+                        <input type="text" class="form-control" placeholder="Mensagem" required>
+                    </label></br>
+                    <button type="submit" class="mt-4 btn btn-primary" disabled>Enviar!</button>
             </form>
+            
         </div>
         </div></br>
 
-        
+        <footer> 
+            <div class="API">
+            <h1>Git-Hub API:</h1>
+            
+            <ol>
+                <lis></lis>
+            </ol>
+            </div>
+        </footer>
+
+    <script src="script.js"></script> 
 </body>
 </html>

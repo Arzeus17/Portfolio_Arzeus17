@@ -140,21 +140,47 @@
     text-align:center;
 }
 
-.form div {
+.formulario div {
     display: flex;
-    backgraund-color:black;
+    background-color:black;
     color:white;
     font-size: 14px;
 }
-.form div ul {
+.formulario div ul {
     list-style:none;
 }
 
-.form div form {
+.formulario div form{
     border:  1px solid #000;
     margin: 10px;
     flex-basis: 100%;
-    align-items:center;
-    text-align:center;
+    align-items:right;
+    text-align:right;
     padding: 10px;
+    color: white;
+}
+
+footer .API {
+align-items: justify;
+background-color:rgb(34, 34, 210);
+color:white;
+word-break:break-all;
+}
+
+ footer .API li {
+    display: flex;
+    flex-direction:column;
+    margin:10px auto;
+    font-size: 14px;
+}
+
+footer .API li span {
+    margin: 10px;
+    font-size: 12px;
+}
+
+ footer .API h1 {
+    font-size: 20px;
+    padding: 16;
+    margin-top: 20px;
 }
